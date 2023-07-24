@@ -106,7 +106,7 @@ export class News extends Component {
     return (
         <>
       <div className='container my-3'>
-        <h1 className='text-center'>{this.capitalizeFirstLetter(this.props.category)} - Today's Top Headlines</h1>
+        <h1 className='text-center' style={{marginTop : '70px'}}>{this.capitalizeFirstLetter(this.props.category)} - Today's Top Headlines</h1>
        {this.state.loading && <Spinner/>}
 
       
